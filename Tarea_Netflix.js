@@ -34,11 +34,19 @@ function NetflixDayMode  (valor1, valor2){
 }
 
 //6. Calcular Tiempo de Maratón
-function   () {
-  alert`Tiempo total: ${episodios ? duracion} minutos.`;
+function CalcularMaraton  (episodio,duracion) {
+  let tiempoTotal = episodio * duracion;
+  alert(`Tiempo total: ${tiempoTotal} minutos.`);
 }
 //7. Dividir Episodios en Días
-function {
-  alert(`Episodios por día: ${episodios ? dias}.`);
+function DividirEpisodios(episodios, dias) {
+  let episodiosPorDia = episodios / dias; // Calcula los episodios por día
+  alert(`Episodios por día: ${episodiosPorDia}`);
 }
+
+//8. Crear Perfil de Usuario
+function CrearPerfil() {
+  let nombre = document.getElementById
+  let email = document.getElementById
+  let edad = document.getElementById
 
