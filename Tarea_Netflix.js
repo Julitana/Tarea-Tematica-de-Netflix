@@ -1,7 +1,6 @@
 console.log("Ejercicios tematicos de Netflix")
 
 
-//3- Zona de Funciones 
 
   //1. Saludo de Bienvenida
   function BienvenidaNetflix() {
@@ -17,6 +16,7 @@ function RecomendarSerie2(serie) {
    alert("The Witcher");
 }
 
+//3- Zona de Funciones 
 function MostrarPerfil(nombre,email){
   alert(`Perfil de Usuario: ${nombre} ${email}`);
 }
@@ -46,7 +46,12 @@ function DividirEpisodios(episodios, dias) {
 
 //8. Crear Perfil de Usuario
 function CrearPerfil() {
-  let nombre = document.getElementById
-  let email = document.getElementById
-  let edad = document.getElementById
+  console.log("Ejercicios tematicos de Netflix")
+  let nombreUsuario = document.getElementById("nombreUsuario").value;
+  let emailUsuario = document.getElementById("emailUsuario").value;
+  let edadUsuario = document.getElementById("edadUsuario").value;
 
+  console.log(nombreUsuario)
+  console.log(emailUsuario)
+  console.log(edadUsuario)
+  }
